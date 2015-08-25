@@ -1,0 +1,37 @@
+{
+  "name": "gulp-rem2px",
+  "version": "0.0.1",
+  "description": "A gulp plugin for rework-rem2px",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ppowalowski/gulp-rem2px.git"
+  },
+  "keywords": [
+    "css",
+    "parser",
+    "postprocessor",
+    "rem",
+	"ie8",
+    "gulp",
+    "gulpplugin"
+  ],
+  "author": "Patrik Powalowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ppowalowski/gulp-rem2px/issues"
+  },
+  "homepage": "https://github.com/ppowalowski/gulp-rem2px",
+  "dependencies": {
+    "gulp-util": "^3.0.6",
+    "node-px2rem": "^1.0.3",
+    "rework": "^1.0.1",
+    "rework-rem2px": "git://github.com/ppowalowski/rework-rem2px.git"
+  },
+  "devDependencies": {
+    "gulp": "*"
+  }
+}

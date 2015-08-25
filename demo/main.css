@@ -1,0 +1,22 @@
+body {
+    margin: 0 0.11719rem 0.23438rem;
+}
+
+header {
+    font-size: 2rem;
+}
+
+.box {
+    padding: 2.25rem 1.125rem;
+}
+
+footer {
+    border: 0.0625rem solid #ccc;
+    padding-top: 1rem;
+}
+
+@media screen and (max-width: 300px) {
+    body {
+        margin: 6.25rem 0rem 1rem 0rem;
+    }
+}
