@@ -1,5 +1,4 @@
-
-Version: **0.0.1**
+[![npm version][npm-image]][npm-url]
 
 This is a Gulp plugin for [rework-rem2px](https://github.com/nfroidure/rework-rem2px).
 
@@ -42,3 +41,6 @@ by [Gergely Kovács](https://github.com/ggkovacs)
 
 # License
 MIT © 2015 Patrik Powalowski (patrik@powalowski.de)
+
+[npm-image]: https://badge.fury.io/js/gulp-rem2px.svg
+[npm-url]: https://www.npmjs.com/package/gulp-rem2px
