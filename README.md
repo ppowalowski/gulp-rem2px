@@ -1,5 +1,5 @@
 
-Version: **0.0.2**
+Version: **0.0.1**
 
 This is a Gulp plugin for [rework-rem2px](https://github.com/nfroidure/rework-rem2px).
 
@@ -10,7 +10,7 @@ Run `npm install gulp-rem2px`
 ## Usage
 
 ```js
-var px2rem = require('gulp-px2rem');
+var rem2px = require('gulp-rem2px');
 
 gulp.task('css', function() {
     gulp.src('css/**/*.css')
@@ -24,21 +24,21 @@ gulp.task('css', function() {
 Pass in the base size as Number
 
 ```js
-var px2rem = require('gulp-px2rem');
+var rem2px = require('gulp-rem2px');
 
 var baseSize = 22;
 
 
 gulp.task('css', function() {
     gulp.src('css/**/*.css')
-        .pipe(px2rem(baseSize))
+        .pipe(rem2px(baseSize))
         .pipe(gulp.dest('css'));
 });
 ```
 
 This plugin is basically a clone of the inverse counterpart which is gulp-px2rem:
 [gulp-px2rem](https://github.com/ggkovacs/gulp-px2rem)
-by [Gergely Kovács][https://github.com/ggkovacs]
+by [Gergely Kovács](https://github.com/ggkovacs)
 
 # License
 MIT © 2015 Patrik Powalowski (patrik@powalowski.de)
