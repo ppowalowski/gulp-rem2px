@@ -29,6 +29,7 @@
     "gulp-util": "^3.0.6",
     "node-px2rem": "^1.0.3",
     "rework": "^1.0.1",
+	"through2": "^2.0",
     "rework-rem2px": "git://github.com/ppowalowski/rework-rem2px.git"
   },
   "devDependencies": {
